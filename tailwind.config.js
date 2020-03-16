@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'brand-red': '#F43042'
+      }
+    },
   },
   variants: {
     backgroundColor: ['responsive', 'hover', 'focus', 'active'],
