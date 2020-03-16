@@ -1,0 +1,16 @@
+{
+  "name": "hello-tailwind-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aaronconway7/hello-tailwind-css.git",
+  "author": "aaronconway7 <aaronconway796@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  }
+}
